@@ -150,10 +150,13 @@ footer{
 	}
 	header nav, header nav li, #contact h1, #contact form, #skills .skill{
 		float: none;
-		padding-left: 5px;
 		padding-right: 5px;
 		text-align: center;
 		width: 100%;
+	}
+	
+	#profilePic img{
+		padding-bottom: 0;
 	}
 	
 	header{
