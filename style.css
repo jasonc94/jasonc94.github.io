@@ -150,6 +150,8 @@ footer{
 	}
 	header nav, header nav li, #contact h1, #contact form, #skills .skill{
 		float: none;
+		padding-left: 5px;
+		padding-right: 5px;
 		text-align: center;
 		width: 100%;
 	}
@@ -169,6 +171,12 @@ footer{
 		width: 100%;
 		display: block;
 		margin-top: 5px;
-	}
+	}	
+}
+
+.projectDisplay{
+	margin: 0 auto;
+	display: block;
+	overflow: hidden;
 	
 }
