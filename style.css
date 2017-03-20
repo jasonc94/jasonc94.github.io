@@ -1,0 +1,174 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	font-family: Arial, Helvetica, san-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	background-color: lightgray;
+}
+
+/*-----global-----*/
+.container{
+	width:80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{	
+	margin: 0;
+	padding: 0;
+}
+
+/*------header----*/
+header{
+	background: #335B79;
+	color: white;
+	padding-top: 20px;
+	min-height: 60px;
+	border-bottom: #56B599 2px solid;
+}
+
+header a{
+	color:white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #profilePic{
+	float: left;
+	width: 40%;
+}
+
+header img{
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border-radius: 50%;
+	height: 55px;
+	width: 55px;
+}
+
+header h1{
+	margin:0;
+}
+
+
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+header .current a{
+	color:#1FA454;
+	font-weight: bold;
+}
+
+header a:hover{
+	color: #cccccc;
+	font-weight: bold;
+}
+
+#projectShowcase{
+	min-height: 380px;
+	background: url(img/skills/showcase.jpg) 0px -100px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#projectShowcase h1{
+	position: relative;
+	margin-top: 90px;
+	margin-left: 200px;
+}
+
+#contact{
+	padding: 15px;
+	color: white;
+	background: #335B79;
+}
+
+#contact h1{
+	float: left;
+}
+
+#contact form{
+	float: right;
+	margin-top: 20px;
+}
+
+#contact input{
+	padding: 4px;
+	height: 25px;
+	width: 300px;
+}
+
+.commentButton{
+	height: 38px;
+	background: #4BE627;
+	border:0;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+#skills .skill{
+	float: left;
+	width: 30%;
+	padding: 10px;
+	text-align: center;	
+}
+
+#skills img{
+	width: 100px;
+	height: 100px;
+}
+
+footer{
+	margin-top: 5px;
+	clear: both;
+	padding: 1px;
+	color: #ffffff;
+	text-align: center;
+	background-color: #367FDE;
+}
+
+@media(max-width:900px){
+	header #profilePic{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	header nav, header nav li, #contact h1, #contact form, #skills .skill{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	
+	header{
+		padding-bottom: 10px;
+	}
+	
+	#projectShowcase{
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 0 0;
+		max-height: 300px;
+	}
+	
+	.commentButton{
+		width: 100%;
+		display: block;
+		margin-top: 5px;
+	}
+	
+}
