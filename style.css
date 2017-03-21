@@ -186,6 +186,10 @@ footer{
 		display: block;
 		margin-top: 5px;
 	}	
+	.projectDisplay{
+		height: 400px;
+		width: 400px;
+	}
 }
 
 .projectDisplay{
