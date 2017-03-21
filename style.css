@@ -143,20 +143,31 @@ footer{
 }
 
 @media(max-width:900px){
+	body{
+		min-width: 405px;
+	}
+	
 	header #profilePic{
 		float: none;
 		text-align: center;
 		width: 100%;
 	}
-	header nav, header nav li, #contact h1, #contact form, #skills .skill{
+	header nav, #contact h1, #contact form, #skills .skill{
 		float: none;
-		padding-right: 5px;
 		text-align: center;
 		width: 100%;
 	}
 	
+	header nav li{
+		float: none;
+		text-align: center;
+		padding: 5px;
+		width: 100%;
+	}
+	
 	#profilePic img{
-		padding-bottom: 0;
+		margin-bottom: 5;
+		margin-right: 0;
 	}
 	
 	header{
