@@ -222,7 +222,7 @@ function appendNewCell(x,y,dir){
 
 function gameOverCheck(){
    if(ateSelf() || hitWall()){
-       alert("Game Over!");
+       //alert("Game Over!");
         location.reload();  
    } 
 }

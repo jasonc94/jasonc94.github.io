@@ -192,9 +192,47 @@ footer{
 	}
 }
 
-.projectDisplay{
-	margin: 0 auto;
+.game #gameButtons{
+	width: 10%;
+	float: left;
+	text-align: center;
+}
+
+.game #gameDescription{
+	width: 10%;
+	float: right;
+	text-align: center;
+}
+
+.game li{
+	margin: auto;
 	display: block;
+	margin-top: 100px;
+	width: 100px;
+	height: 50px;
+	background-color: #12DDAD;
+	text-align: center;
+	border-radius: 5px;
+	color: aliceblue;
+}
+
+.game a{
+	color:white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+.game li:hover{
+	background-color: aquamarine;
+}
+
+
+
+.projectDisplay{
+	padding: 0;
+	width: 80%;
+	margin: auto;
+	display: inline-block;
 	overflow: hidden;
-	
 }

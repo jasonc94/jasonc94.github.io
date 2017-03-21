@@ -20,9 +20,9 @@
     </div>
     <nav>
       <ul>
-        <li class="current"><a href="index.html">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="aboutMe.html">About Me</a></li>
-        <li><a href="projects.html">Projects</a></li>
+        <li class="current"><a href="projects.html">Projects</a></li>
       </ul>
     </nav>
   </div>
@@ -39,8 +39,22 @@
   </div>
 </section>
 
-<!-----------------------Skills---------------------->
-<iframe class="projectDisplay" src ="snakeProject/snake.html" height="700px" width="700px"></iframe>
+<!-----------------------Game Display---------------------->
+<section class="game">
+<div id="gameButtons">
+	<ul>
+		<li><a href="snakeProject/snake.html" target="game" >Snake</a></li>
+		<li><a href="https://gios-asu.github.io/sustainability-tower-defense/" target="game">Sustain It!</a></li>
+		<li><a href="https://gios-asu.github.io/sustainability-clicker/" target="game">Cookie Clicker</a></li>
+	</ul>
+</div>
+
+<iframe class="projectDisplay" src ="snakeProject/snake.html" scrolling="no" frameborder="0" height="760px" name="game"></iframe>
+
+<div id="gameDescription">
+description
+</div>
+</section>
 </body>
 
 
